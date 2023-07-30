@@ -24,6 +24,8 @@ cropped_image = region_of_interest(
 )
 plt.figure()
 plt.imshow(cropped_image)
+
+
 # Convert to grayscale here.
 gray_image = cv2.cvtColor(cropped_image, cv2.COLOR_RGB2GRAY)
 # Call Canny Edge Detection here.
