@@ -3,6 +3,8 @@ import matplotlib.image as mpimg
 import numpy as np
 import cv2
 import math
+
+# main function
 def region_of_interest(img, vertices):
     mask = np.zeros_like(img)
     channel_count = img.shape[2]
